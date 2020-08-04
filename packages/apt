@@ -1,0 +1,11 @@
+vim
+git
+tmux
+gdb
+valgrind
+net-tools
+ufw
+openssh-server
+cmake
+dos2unix
+
