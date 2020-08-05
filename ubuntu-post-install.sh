@@ -16,6 +16,5 @@ sudo apt install -y python3-pip
 pip3 install pipenv
 
 # rc file settings
-git clone https://github.com/BradLin0819/dotfiles.git && \
-cp .bashrc .bashrc.bak && cp dotfiles/.* 
+git clone https://github.com/BradLin0819/dotfiles.git && mv dotfiles/ ~/
 source ~/.bashrc
