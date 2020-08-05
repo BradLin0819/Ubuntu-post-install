@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update
-sudo install -y `cat packages/apt` 
+sudo apt install -y `cat packages/apt` 
 sudo ufw allow ssh
 
 # python related
